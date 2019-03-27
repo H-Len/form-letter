@@ -1,8 +1,8 @@
-$()function(){
+$(function(){
   $("#getName").submit(function(event){
-    var addressNameInput = $("input#name").val();
+    var nameInput = $("input#name").val();
 
-    $("name").text(addressNameInput);
+    $(".name").text(nameInput);
 
     $("#letter").show();
 
